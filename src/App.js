@@ -3,7 +3,7 @@ import React from 'react'
 // import UseStateToggle from './toggle/UseStateToggle'
 // import UseStateArray from "./hooks/UseStateArray"
 import Covid from './components/Covid'
-import UseEffect from './hooks/UseEffect'
+import UseEffect from './hooks/UseEffect/UseEffect'
 // import "./App.css"
 
 
