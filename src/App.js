@@ -1,19 +1,22 @@
 import React from 'react'
-import UseState from './hooks/UseState'
-import UseStateToggle from './toggle/UseStateToggle'
-import UseStateArray from "./hooks/UseStateArray"
+// import UseState from './hooks/UseState'
+// import UseStateToggle from './toggle/UseStateToggle'
+// import UseStateArray from "./hooks/UseStateArray"
+import Covid from './components/Covid'
+import UseEffect from './hooks/UseEffect'
 // import "./App.css"
 
 
 const App = () => {
 
   return (
-    <div className='App'>
-      hello
+    <>
+    <UseEffect/>
+      {/* <Covid/> */}
       {/* <UseState/> */}
       {/* <UseStateToggle/> */}
       {/* <UseStateArray/> */}
-    </div>
+    </>
   )
 }
 
