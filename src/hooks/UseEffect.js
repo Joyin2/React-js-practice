@@ -9,7 +9,7 @@ const UseEffect = () => {
     } else {
         document.title = `Chats `;
     }
-  });
+  }, [count]);
   const increse = () => setCount(count + 1);
   const decrese = () => setCount(count - 1);
   return (
