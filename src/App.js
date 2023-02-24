@@ -6,12 +6,14 @@ import Covid from "./components/Covid";
 import UseEffect from "./hooks/UseEffect/UseEffect";
 import CleanUp from "./hooks/UseEffect/CleanUp";
 import CurrentTimeDate from "./components/CurrentTimeDate/index"
+import Greeting from "./components/GreetingWebsite"
 // import "./App.css"
 
 const App = () => {
   return (
     <>
-      <CurrentTimeDate/>
+    <Greeting/>
+      {/* <CurrentTimeDate/> */}
       {/* <CleanUp /> */}
       {/* <UseEffect/> */}
       {/* <Covid/> */}
