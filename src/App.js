@@ -5,12 +5,14 @@ import React from "react";
 import Covid from "./components/Covid";
 import UseEffect from "./hooks/UseEffect/UseEffect";
 import CleanUp from "./hooks/UseEffect/CleanUp";
+import CurrentTimeDate from "./components/CurrentTimeDate/index"
 // import "./App.css"
 
 const App = () => {
   return (
     <>
-      <CleanUp />
+      <CurrentTimeDate/>
+      {/* <CleanUp /> */}
       {/* <UseEffect/> */}
       {/* <Covid/> */}
       {/* <UseState/> */}
