@@ -5,14 +5,16 @@ import React from "react";
 import Covid from "./components/Covid";
 import UseEffect from "./hooks/UseEffect/UseEffect";
 import CleanUp from "./hooks/UseEffect/CleanUp";
-import CurrentTimeDate from "./components/CurrentTimeDate/index"
-import Greeting from "./components/GreetingWebsite"
-// import "./App.css"
+// import CurrentTimeDate from "./components/CurrentTimeDate/index"
+// import Greeting from "./components/GreetingWebsite"
+import SimpleCalculator from "./components/SimpleCalculator"
+
 
 const App = () => {
   return (
     <>
-    <Greeting/>
+    <SimpleCalculator/>
+    {/* <Greeting/> */}
       {/* <CurrentTimeDate/> */}
       {/* <CleanUp /> */}
       {/* <UseEffect/> */}
