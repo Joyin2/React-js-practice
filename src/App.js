@@ -7,14 +7,15 @@ import UseEffect from "./hooks/UseEffect/UseEffect";
 import CleanUp from "./hooks/UseEffect/CleanUp";
 // import CurrentTimeDate from "./components/CurrentTimeDate/index"
 // import Greeting from "./components/GreetingWebsite"
-import SimpleCalculator from "./components/SimpleCalculator"
-
+// import SimpleCalculator from "./components/SimpleCalculator";
+import NetflixApp from "./components/NetflixApp";
 
 const App = () => {
   return (
     <>
-    <SimpleCalculator/>
-    {/* <Greeting/> */}
+      <NetflixApp />
+      {/* <SimpleCalculator/> */}
+      {/* <Greeting/> */}
       {/* <CurrentTimeDate/> */}
       {/* <CleanUp /> */}
       {/* <UseEffect/> */}
