@@ -9,12 +9,14 @@ import React from "react";
 // import Greeting from "./components/GreetingWebsite"
 // import SimpleCalculator from "./components/SimpleCalculator";
 // import NetflixApp from "./components/NetflixApp";
-import SlotMachine from "./components/SlotMachineGame"
+// import SlotMachine from "./components/SlotMachineGame"
+import IncreDecre from "./hooks/IncreDecre/index"
 
 const App = () => {
   return (
     <>
-      <SlotMachine/>
+      <IncreDecre/>
+      {/* <SlotMachine/> */}
       {/* <NetflixApp /> */}
       {/* <SimpleCalculator/> */}
       {/* <Greeting/> */}
