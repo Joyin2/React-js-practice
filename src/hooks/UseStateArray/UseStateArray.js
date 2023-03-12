@@ -1,4 +1,5 @@
 import React from 'react'
+import "./UseStateArray.css"
 
 const UseStateArray = () => {
     const bioData = [
@@ -15,7 +16,7 @@ const UseStateArray = () => {
 
   return (
     <div>
-      {}
+      hello
     </div>
   )
 }

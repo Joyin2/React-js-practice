@@ -1,7 +1,7 @@
 import React from "react";
 // import UseState from './hooks/UseState'
 // import UseStateToggle from './toggle/UseStateToggle'
-// import UseStateArray from "./hooks/UseStateArray"
+import UseStateArray from "./hooks/UseStateArray/UseStateArray"
 // import Covid from "./components/Covid";
 // import UseEffect from "./hooks/UseEffect/UseEffect";
 // import CleanUp from "./hooks/UseEffect/CleanUp";
@@ -10,12 +10,12 @@ import React from "react";
 // import SimpleCalculator from "./components/SimpleCalculator";
 // import NetflixApp from "./components/NetflixApp";
 // import SlotMachine from "./components/SlotMachineGame"
-import IncreDecre from "./hooks/IncreDecre/index"
+// import IncreDecre from "./hooks/IncreDecre/index"
 
 const App = () => {
   return (
     <>
-      <IncreDecre/>
+      {/* <IncreDecre/> */}
       {/* <SlotMachine/> */}
       {/* <NetflixApp /> */}
       {/* <SimpleCalculator/> */}
@@ -26,7 +26,7 @@ const App = () => {
       {/* <Covid/> */}
       {/* <UseState/> */}
       {/* <UseStateToggle/> */}
-      {/* <UseStateArray/> */}
+      <UseStateArray/>
     </>
   );
 };
