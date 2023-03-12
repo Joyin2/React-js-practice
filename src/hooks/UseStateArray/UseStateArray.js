@@ -26,13 +26,13 @@ const UseStateArray = () => {
 
   return (
     <>
-      {
-        Array.map((curr) => {
-          return (
-            <h1 key={curr.id}>Name: {curr.myName}, Age: {curr.age}</h1>
-          )
-        })
-      }
+      {Array.map((curr) => {
+        return (
+          <h1 key={curr.id}>
+            Name: {curr.myName}, Age: {curr.age}
+          </h1>
+        );
+      })}
       <button onClick={clearArray}>Clear</button>
     </>
   );
