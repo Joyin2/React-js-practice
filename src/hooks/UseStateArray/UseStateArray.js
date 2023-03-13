@@ -23,13 +23,21 @@ const UseStateArray = () => {
   const clearArray = () => {
     setArray([]);
   };
+  const deleteFunc = (id) => {
+    // alert(id);
+    const myNewArray = Array.filter((currentElement)=>{
+      return currentElement.id != id;
+    })
+    setArray(myNewArray)
+  };
 
   return (
     <>
       {Array.map((curr) => {
         return (
           <h1 key={curr.id}>
-            Name: {curr.myName}, Age: {curr.age}
+            Name: {curr.myName}, Age: {curr.age}{" "}
+            <button onClick={() => deleteFunc(curr.id)}>delete</button>
           </h1>
         );
       })}
