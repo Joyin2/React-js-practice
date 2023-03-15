@@ -2,8 +2,9 @@ import React from "react";
 import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
 // import UseState from './hooks/UseState'
 // import UseStateToggle from './toggle/UseStateToggle'
-import UseStateArray from "./hooks/UseStateArray/UseStateArray"
+import UseStateArray from "./hooks/UseStateArray/UseStateArray";
 import ShortCirtcuitEvaluation from "./components/ShortCircuitEval/ShortCirtcuitEvaluation";
+import Login from "./components/LoginForm/Login";
 // import Covid from "./components/Covid";
 // import UseEffect from "./hooks/UseEffect/UseEffect";
 // import CleanUp from "./hooks/UseEffect/CleanUp";
@@ -30,7 +31,8 @@ const App = () => {
       {/* <UseStateToggle/> */}
       {/* <UseStateArray/> */}
       {/* <SpreadOperator/> */}
-      <ShortCirtcuitEvaluation/>
+      {/* <ShortCirtcuitEvaluation/> */}
+      <Login />
     </>
   );
 };
