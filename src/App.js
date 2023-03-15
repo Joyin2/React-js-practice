@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import React,{createContext} from "react";
 // import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
 // import UseState from './hooks/UseState'
 // import UseStateToggle from './toggle/UseStateToggle'
@@ -15,18 +15,16 @@ import React, { createContext } from "react";
 // import SlotMachine from "./components/SlotMachineGame"
 // import IncreDecre from "./hooks/IncreDecre/index"
 import ComA from "./hooks/ContextApi/ComA";
-
-const FirstName = createContext();
+import ComB from "./hooks/ContextApi/ComB";
 
 const App = () => {
   return (
     <>
-      <FirstName.Provider value={"Joyin"}>
-        <ComA />
-      </FirstName.Provider>
+        <ComB />
     </>
   );
 };
 
 export default App;
-export { FirstName };
+
+
