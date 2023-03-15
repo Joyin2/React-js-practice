@@ -1,10 +1,10 @@
-import React from "react";
-import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
+import React, { createContext } from "react";
+// import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
 // import UseState from './hooks/UseState'
 // import UseStateToggle from './toggle/UseStateToggle'
-import UseStateArray from "./hooks/UseStateArray/UseStateArray";
-import ShortCirtcuitEvaluation from "./components/ShortCircuitEval/ShortCirtcuitEvaluation";
-import Login from "./components/LoginForm/Login";
+// import UseStateArray from "./hooks/UseStateArray/UseStateArray";
+// import ShortCirtcuitEvaluation from "./components/ShortCircuitEval/ShortCirtcuitEvaluation";
+// import Login from "./components/LoginForm/Login";
 // import Covid from "./components/Covid";
 // import UseEffect from "./hooks/UseEffect/UseEffect";
 // import CleanUp from "./hooks/UseEffect/CleanUp";
@@ -14,27 +14,19 @@ import Login from "./components/LoginForm/Login";
 // import NetflixApp from "./components/NetflixApp";
 // import SlotMachine from "./components/SlotMachineGame"
 // import IncreDecre from "./hooks/IncreDecre/index"
+import ComA from "./hooks/ContextApi/ComA";
+
+const FirstName = createContext();
 
 const App = () => {
   return (
     <>
-      {/* <IncreDecre/> */}
-      {/* <SlotMachine/> */}
-      {/* <NetflixApp /> */}
-      {/* <SimpleCalculator/> */}
-      {/* <Greeting/> */}
-      {/* <CurrentTimeDate/> */}
-      {/* <CleanUp /> */}
-      {/* <UseEffect/> */}
-      {/* <Covid/> */}
-      {/* <UseState/> */}
-      {/* <UseStateToggle/> */}
-      {/* <UseStateArray/> */}
-      {/* <SpreadOperator/> */}
-      {/* <ShortCirtcuitEvaluation/> */}
-      <Login />
+      <FirstName.Provider value={"Joyin"}>
+        <ComA />
+      </FirstName.Provider>
     </>
   );
 };
 
 export default App;
+export { FirstName };
