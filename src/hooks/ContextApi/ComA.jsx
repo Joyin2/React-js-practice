@@ -1,5 +1,5 @@
 import React from 'react'
-import { FirstName } from './ComB'
+import { FirstName, LastName } from './ComB'
 
 const ComA = () => {
   return (
@@ -8,7 +8,13 @@ const ComA = () => {
         {
           (fname)=>{
             return (
-              <h1>My name is {fname}</h1>
+              <LastName.Consumer>
+                {
+                  (lname)=>{
+                    return <h1>My name is {fname} {lname}</h1>;
+                  }
+                }
+              </LastName.Consumer>
             )
           }
         }
