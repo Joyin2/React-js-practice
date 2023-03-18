@@ -1,10 +1,10 @@
-import React, { createContext } from "react";
+import React from "react";
 // import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
 // import UseState from './hooks/UseState'
 // import UseStateToggle from './toggle/UseStateToggle'
 // import UseStateArray from "./hooks/UseStateArray/UseStateArray";
 // import ShortCirtcuitEvaluation from "./components/ShortCircuitEval/ShortCirtcuitEvaluation";
-import Login from "./components/LoginForm/Form";
+// import Login from "./components/LoginForm/Form";
 // import Covid from "./components/Covid";
 // import UseEffect from "./hooks/UseEffect/UseEffect";
 // import CleanUp from "./hooks/UseEffect/CleanUp";
@@ -17,10 +17,13 @@ import Login from "./components/LoginForm/Form";
 // import ComA from "./hooks/ContextApi/ComA";
 // import ComB from "./hooks/ContextApi/ComB";
 
+import Events from "./Events/Events";
+
 const App = () => {
   return (
     <>
-      <Login />
+      {/* <Login /> */}
+      <Events/>
     </>
   );
 };
