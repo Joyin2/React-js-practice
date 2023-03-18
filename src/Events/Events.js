@@ -3,10 +3,16 @@ import React, { useState } from "react";
 const Events = () => {
   const purple = "#8e44ad"
   const [bg, setBg] = useState(purple);
+  const [name, setName] = useState("Click Me")
   const bgChange = () => {
     let newBg = "#34495e"
     setBg(newBg)
+    setName("single clicked")
   };
+  const bgBack = () =>{
+    setBg(purple)
+    setName("double clicked")
+  }
   return (
     <>
       <div
@@ -19,7 +25,7 @@ const Events = () => {
           justifyContent: "center",
         }}
       >
-        <button onClick={bgChange}>Click me</button>
+        <button onClick={bgChange} onDoubleClick={bgBack}>{name}</button>
       </div>
     </>
   );
