@@ -17,12 +17,14 @@ import React from "react";
 // import ComB from "./hooks/ContextApi/ComB";
 
 // import Events from "./Events/Events";
-import Form from "./components/FormHandling/Form";
+// import Form from "./components/FormHandling/Form";
+import Incre from "./components/IncreDecre/Incre";
 
 const App = () => {
   return (
     <>
-      <Form/>
+      {/* <Form/> */}
+      <Incre/>
       
     </>
   );
