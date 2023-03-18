@@ -4,7 +4,6 @@ import React from "react";
 // import UseStateToggle from './toggle/UseStateToggle'
 // import UseStateArray from "./hooks/UseStateArray/UseStateArray";
 // import ShortCirtcuitEvaluation from "./components/ShortCircuitEval/ShortCirtcuitEvaluation";
-// import Login from "./components/LoginForm/Form";
 // import Covid from "./components/Covid";
 // import UseEffect from "./hooks/UseEffect/UseEffect";
 // import CleanUp from "./hooks/UseEffect/CleanUp";
@@ -17,13 +16,14 @@ import React from "react";
 // import ComA from "./hooks/ContextApi/ComA";
 // import ComB from "./hooks/ContextApi/ComB";
 
-import Events from "./Events/Events";
+// import Events from "./Events/Events";
+import Form from "./components/FormHandling/Form";
 
 const App = () => {
   return (
     <>
-      {/* <Login /> */}
-      <Events/>
+      <Form/>
+      
     </>
   );
 };
