@@ -15,18 +15,18 @@ import React from "react";
 // import IncreDecre from "./hooks/IncreDecre/index"
 // import ComA from "./hooks/ContextApi/ComA";
 // import ComB from "./hooks/ContextApi/ComB";
-
 // import Events from "./Events/Events";
 // import Form from "./components/FormHandling/Form";
-import Incre from "./components/IncreDecre/Incre";
+// import Incre from "./components/IncreDecre/Incre";
+// import DigitalClock from "./components/DigitalClock/DigitalClock";
+// import Slider from "./components/Slider/Slider";
+import Map from "./Map/Map";
 
 const App = () => {
   return (
-    <>
-      {/* <Form/> */}
-      <Incre/>
-      
-    </>
+    <div >
+      <Map/>
+    </div>
   );
 };
 
