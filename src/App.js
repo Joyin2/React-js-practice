@@ -1,5 +1,6 @@
 import React from "react";
-import GetTime from "./Projects/GetTimeOnClick/GetTime";
+import DigitalClock from "./Projects/DigitalClock/DigitalClock";
+// import GetTime from "./Projects/GetTimeOnClick/GetTime";
 // import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
 // import UseState from './hooks/UseState'
 // import UseStateToggle from './toggle/UseStateToggle'
@@ -27,7 +28,7 @@ import GetTime from "./Projects/GetTimeOnClick/GetTime";
 const App = () => {
   return (
     <div >
-      <GetTime/>
+      <DigitalClock />
     </div>
   );
 };
