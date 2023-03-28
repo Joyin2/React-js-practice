@@ -1,0 +1,16 @@
+.GetTime{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  .g-button{
+    background-color: purple;
+    border: 3px solid rgb(151, 133, 133);
+    outline: none;
+    padding: .5rem;
+    color: white;
+    border-radius: 5px;
+  }
+}
