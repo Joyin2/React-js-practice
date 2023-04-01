@@ -8,21 +8,25 @@ const Forms = () => {
     // console.log(event.target.value)
     setName(event.target.value);
   };
-  const onSubmit = () => {
+  const formSubmit = (event) => {
     setFullName(name);
+    event.preventDefault()
   };
+
   return (
     <div className="Forms">
-      <h1>Hello {fullName}</h1>
-      <input
-        type="text"
-        name=""
-        id=""
-        placeholder="enter your name"
-        onChange={inputEvent}
-        value={name}
-      />
-      <button onClick={onSubmit}>Click</button>
+      <form action="" onSubmit={formSubmit}>
+        <h1>Hello {fullName}</h1>
+        <input
+          type="text"
+          name=""
+          id=""
+          placeholder="enter your name"
+          onChange={inputEvent}
+          value={name}
+        />
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 };
