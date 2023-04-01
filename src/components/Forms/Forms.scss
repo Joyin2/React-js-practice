@@ -1,0 +1,15 @@
+.Forms{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  input{
+    outline: none;
+  }
+  button{
+    outline-style: none;
+    background-color: yellow;
+    border: none;
+  }
+}

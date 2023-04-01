@@ -1,5 +1,5 @@
 import React from "react";
-import DigitalClock from "./Projects/DigitalClock/DigitalClock";
+// import DigitalClock from "./Projects/DigitalClock/DigitalClock";
 // import GetTime from "./Projects/GetTimeOnClick/GetTime";
 // import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
 // import UseState from './hooks/UseState'
@@ -24,11 +24,12 @@ import DigitalClock from "./Projects/DigitalClock/DigitalClock";
 // import DigitalClock from "./components/DigitalClock/DigitalClock";
 // import Slider from "./components/Slider/Slider";
 // import Map from "./Map/Map";
+import Forms from "./components/Forms/Forms";
 
 const App = () => {
   return (
     <div >
-      <DigitalClock />
+      <Forms />
     </div>
   );
 };
