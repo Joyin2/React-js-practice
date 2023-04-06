@@ -24,12 +24,14 @@ import React from "react";
 // import DigitalClock from "./components/DigitalClock/DigitalClock";
 // import Slider from "./components/Slider/Slider";
 // import Map from "./Map/Map";
-import Forms from "./components/Forms/Forms1.0/Forms";
+// import Forms from "./components/Forms/Forms1.0/Forms";
+import Forms from "./components/Forms/Forms2.0/Forms";
 
 const App = () => {
   return (
     <div >
       <Forms />
+      
     </div>
   );
 };
