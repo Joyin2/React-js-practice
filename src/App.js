@@ -25,13 +25,13 @@ import React from "react";
 // import Slider from "./components/Slider/Slider";
 // import Map from "./Map/Map";
 // import Forms from "./components/Forms/Forms1.0/Forms";
-import Forms from "./components/Forms/Forms2.0/Forms";
+// import Forms from "./components/Forms/Forms2.0/Forms";
+import Form from "./components/Forms/Forms3.0/Form"
 
 const App = () => {
   return (
     <div >
-      <Forms />
-      
+      <Form />
     </div>
   );
 };
