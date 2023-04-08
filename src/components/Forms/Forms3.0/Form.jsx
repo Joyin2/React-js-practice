@@ -8,16 +8,30 @@ const Form = () => {
     phone: "",
     password: "",
   });
-  const handleInput = () => {};
+  const [records, setRecords]=useState([])
+  const handleInput = (e) => {
+    const name = e.target.name;
+    const value = e.target.value;
+    console.log(name, value);
+    setUserRegistration({...userRegistration, [name]:value})
+  };
+
+  const handleSubmit =(e)=>{
+    e.preventDefault();
+    const newRecord = {...userRegistration, id : new Date().getTime().toString()}
+    console.log(records);
+    setRecords([...records, newRecord])
+    setUserRegistration({ username:"", email:"", phone:"",password:"" })
+  }
   return (
     <>
-      <form action="">
+      <form action="" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="username">Fullname</label>
           <input
             type="text"
             autoComplete="off"
-            value=""
+            value={userRegistration.username}
             onChange={handleInput}
             name="username"
             id="username"
@@ -28,7 +42,7 @@ const Form = () => {
           <input
             type="text"
             autoComplete="off"
-            value=""
+            value={userRegistration.email}
             onChange={handleInput}
             name="email"
             id="email"
@@ -39,7 +53,7 @@ const Form = () => {
           <input
             type="text"
             autoComplete="off"
-            value=""
+            value={userRegistration.phone}
             onChange={handleInput}
             name="phone"
             id="phone"
@@ -50,7 +64,7 @@ const Form = () => {
           <input
             type="text"
             autoComplete="off"
-            value=""
+            value={userRegistration.password}
             onChange={handleInput}
             name="password"
             id="password"
@@ -58,6 +72,20 @@ const Form = () => {
         </div>
         <button type="submit">Register</button>
       </form>
+      <div>
+        {
+          records.map((curElem)=>{
+            return(
+              <div key={curElem.id}>
+                <p>{curElem.username}</p>
+                <p> {curElem.email} </p>
+                <p> {curElem.phone} </p>
+                <p> {curElem.password} </p>
+              </div>
+            )
+          })
+        }
+      </div>
     </>
   );
 };
