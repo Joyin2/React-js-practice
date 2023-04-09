@@ -16,6 +16,12 @@ const ToDo = () => {
     setInputList("");
   };
 
+  const deleteItems = (index) => {
+    const newItems = [...items];
+    newItems.splice(index, 1);
+    setItems(newItems);
+  };
+
   return (
     <div className="ToDo">
       <div className="wrapper">
@@ -33,8 +39,13 @@ const ToDo = () => {
         </div>
         <ol>
           {/* <li>{inputList}</li> */}
-          {items.map((itemVal) => {
-            return <li>{itemVal}</li>;
+          {items.map((itemVal, index) => {
+            return (
+              <div className="list-style" key={index} id="index">
+                <li>{itemVal}</li>
+                <span onClick={() => deleteItems(index)}>x</span>
+              </div>
+            );
           })}
         </ol>
       </div>
