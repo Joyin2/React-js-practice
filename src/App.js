@@ -20,19 +20,19 @@ import React from "react";
 // import ComB from "./hooks/ContextApi/ComB";
 // import Events from "./Events/Events";
 // import Form from "./components/FormHandling/Form";
-// import Incre from "./components/IncreDecre/Incre";
+import Incre from "./components/IncreDecre/Incre";
 // import DigitalClock from "./components/DigitalClock/DigitalClock";
 // import Slider from "./components/Slider/Slider";
 // import Map from "./Map/Map";
 // import Forms from "./components/Forms/Forms1.0/Forms";
 // import Forms from "./components/Forms/Forms2.0/Forms";
 // import Form from "./components/Forms/Forms3.0/Form"
-import ToDo from "./Projects/toDo/ToDo";
+// import ToDo from "./Projects/toDo/ToDo";
 
 const App = () => {
   return (
     <div >
-      <ToDo />
+      <Incre />
     </div>
   );
 };

@@ -4,9 +4,15 @@ const Incre = () => {
   const [number, setNumber] = useState(0)
   const IncNum = () =>{
     setNumber(number+1)
+    
   }
   const DecNum = ()=>{
-    setNumber(number-1)
+    
+    if (number<=0) {
+      return alert("zero limit reached")
+    }else{
+      setNumber(number - 1);
+    }
   }
   return (
     <>
