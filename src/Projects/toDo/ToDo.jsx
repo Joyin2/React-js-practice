@@ -9,6 +9,7 @@ const ToDo = () => {
     setInputList(event.target.value);
   };
 
+  
   const listOfItems = () => {
     setItems((oldItems) => {
       return [inputList, ...oldItems];
