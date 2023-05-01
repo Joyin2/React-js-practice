@@ -1,0 +1,28 @@
+.quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    background: silver;
+    width: 20rem;
+    height: 10rem;
+    gap: 1rem;
+    a{
+        font-size: 38px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        background: white;
+        width: 2rem;
+        cursor: pointer;
+    }
+    input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5rem;
+        text-align: center;
+    }
+}

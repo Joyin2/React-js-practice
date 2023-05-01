@@ -1,4 +1,5 @@
 import React from "react";
+// import Swiper from "./Projects/Swiper/Swiper";
 // import DigitalClock from "./Projects/DigitalClock/DigitalClock";
 // import GetTime from "./Projects/GetTimeOnClick/GetTime";
 // import SpreadOperator from "./hooks/SpreadOperatorInUseState/SpreadOperator";
@@ -20,7 +21,7 @@ import React from "react";
 // import ComB from "./hooks/ContextApi/ComB";
 // import Events from "./Events/Events";
 // import Form from "./components/FormHandling/Form";
-import Incre from "./components/IncreDecre/Incre";
+// import Incre from "./components/IncreDecre/Incre";
 // import DigitalClock from "./components/DigitalClock/DigitalClock";
 // import Slider from "./components/Slider/Slider";
 // import Map from "./Map/Map";
@@ -28,11 +29,12 @@ import Incre from "./components/IncreDecre/Incre";
 // import Forms from "./components/Forms/Forms2.0/Forms";
 // import Form from "./components/Forms/Forms3.0/Form"
 // import ToDo from "./Projects/toDo/ToDo";
+import Redux from "./components/Redux/Redux";
 
 const App = () => {
   return (
     <div >
-      <Incre />
+      <Redux />
     </div>
   );
 };
