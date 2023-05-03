@@ -29,12 +29,14 @@ import React from "react";
 // import Forms from "./components/Forms/Forms2.0/Forms";
 // import Form from "./components/Forms/Forms3.0/Form"
 // import ToDo from "./Projects/toDo/ToDo";
-import Redux from "./components/Redux/Redux";
+// import Redux from "./components/Redux/Redux";
+import MapPractice from "./Map/MapPractice";
 
 const App = () => {
   return (
     <div >
-      <Redux />
+      {/* <Redux /> */}
+      
     </div>
   );
 };
