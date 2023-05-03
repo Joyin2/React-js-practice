@@ -30,13 +30,14 @@ import React from "react";
 // import Form from "./components/Forms/Forms3.0/Form"
 // import ToDo from "./Projects/toDo/ToDo";
 // import Redux from "./components/Redux/Redux";
-import MapPractice from "./Map/MapPractice";
+// import MapPractice from "./Map/MapPractice";
+import Search from "./search/Search";
 
 const App = () => {
   return (
     <div >
       {/* <Redux /> */}
-      
+      <Search/>
     </div>
   );
 };
