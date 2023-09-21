@@ -1,4 +1,7 @@
 import React from "react";
+// import State from "./Test/State";
+// import Services from "./services/Services";
+// import About from "./About/About";
 // import Swiper from "./Projects/Swiper/Swiper";
 // import DigitalClock from "./Projects/DigitalClock/DigitalClock";
 // import GetTime from "./Projects/GetTimeOnClick/GetTime";
@@ -31,14 +34,19 @@ import React from "react";
 // import ToDo from "./Projects/toDo/ToDo";
 // import Redux from "./components/Redux/Redux";
 // import MapPractice from "./Map/MapPractice";
-import Search from "./search/Search";
+// import Search from "./search/Search";
+import ContactUs from "./Contact/ContactUs";
 
 const App = () => {
   return (
-    <div >
+    <>
       {/* <Redux /> */}
-      <Search/>
-    </div>
+      {/* <Search/> */}
+      {/* <State/> */}
+      {/* <Services/> */}
+      {/* <About/> */}
+      <ContactUs />
+    </>
   );
 };
 
